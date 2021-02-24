@@ -1,6 +1,6 @@
 let variavel;
 
-variavel = 50;
+variavel = -0.5;
 
 if(variavel > 0){
     console.log("positive");
