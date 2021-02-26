@@ -1,5 +1,5 @@
 // Exercicio 1 - Percorrendo o Array
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //for (let index = 0; index < numbers.length; index+=1) {
     //console.log(numbers[index]);
@@ -65,4 +65,28 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // console.log("A quantidade de números ímpares dentro do array: " + contador);
 
 //Exercicio 7
+// let menor = 100000000;
+
+// for (let index = 0; index < numbers.length; index+=1) {
+//     if (numbers[index] < menor) {
+//         menor = numbers[index];
+//     }
+// }
+// console.log("O menor valor do array é: " + menor);
+
+//Exercicio 8
+let numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+
+// for (let index = 0; index < numbers2.length; index+=1) {
+//     console.log(numbers2[index]);
+// }
+
+//Exercicio 9
+let resultDivisao;
+
+for (let index = 0; index < numbers2.length; index+=1) {
+    resultDivisao = (numbers2[index]/2);
+
+    console.log(numbers2[index] + "/2" + " é: " + resultDivisao);
+}
 
