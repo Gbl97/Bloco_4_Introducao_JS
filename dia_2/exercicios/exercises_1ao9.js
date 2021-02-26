@@ -64,3 +64,5 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // console.log("A quantidade de números ímpares dentro do array: " + contador);
 
+//Exercicio 7
+
