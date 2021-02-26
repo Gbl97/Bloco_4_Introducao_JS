@@ -50,3 +50,17 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //     }
 // }
 // console.log("O maior é: " + maior);
+
+//Exercicio 6
+// let contador;
+// contador = 0;
+
+// for (let index = 0; index < numbers.length; index+=1) {
+//     if (numbers[index] % 2 === 1) {
+//         contador+=1;
+//     } 
+// }
+
+
+// console.log("A quantidade de números ímpares dentro do array: " + contador);
+
