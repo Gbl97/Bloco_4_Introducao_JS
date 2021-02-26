@@ -1,18 +1,9 @@
-let n;
+let n = 5;
+let carac = '*';
+let inputline = '';
 
-
-n = 5;
-
-for (let n = 5; n > 1; n-=1) {
-    
-    if(n === 5){
-        console.log("* ");
-    } else if (n === 4) {
-        console.log("** ");
-    } else if (n === 3) {
-        console.log("*** ");
-    } else if (n === 2) {
-        console.log("**** ");
-        console.log("*****");
-    } 
+for (let index = 0; index <= n; index+=1) {
+    console.log(inputline);
+    inputline+= carac;
 }
+

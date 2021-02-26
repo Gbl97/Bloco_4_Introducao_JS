@@ -1,18 +1,18 @@
-let n;
+let n = 5;
+let carac = '*';
+let inputline = '';
+let inputPosition = n;
 
 
-n = 5;
-
-for (let n = 5; n > 1; n-=1) {
-    
-    if(n === 5){
-        console.log(" *");
-    } else if (n === 4) {
-        console.log(" **");
-    } else if (n === 3) {
-        console.log(" ***");
-    } else if (n === 2) {
-        console.log(" ****");
-        console.log("*****");
-    } 
+for (let indexLine = 0; indexLine <= n; indexLine += 1) {
+    for (let indexColumn = 0; indexColumn <= n; indexColumn += 1) {
+        if (indexColumn < inputPosition) {
+            inputline = inputline + ' ';
+        } else {
+            inputline = inputline + carac;
+        }
+    }
+    console.log(inputline);
+    inputline = '';
+    inputPosition -= 1;
 }
