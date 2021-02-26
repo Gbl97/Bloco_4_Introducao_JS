@@ -3,6 +3,6 @@ let n;
 
 n = 5;
 
-for (let index = 1; index <= 5; index+=1) {
+for (let n = 5; n > 1; n-=1) {
     console.log("*****");
 }
