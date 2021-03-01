@@ -1,5 +1,5 @@
 // Exercicio 1 - Percorrendo o Array
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //for (let index = 0; index < numbers.length; index+=1) {
     //console.log(numbers[index]);
@@ -52,14 +52,25 @@
 // console.log("O maior é: " + maior);
 
 //Exercicio 6
-// let contador;
-// contador = 0;
+let contador;
+contador = 0;
+contador2 = 0;
 
-// for (let index = 0; index < numbers.length; index+=1) {
-//     if (numbers[index] % 2 === 1) {
-//         contador+=1;
-//     } 
-// }
+for (let index = 0; index < numbers.length; index+=1) {
+    if (numbers[index] % 2 === 1) {
+        contador+=1;
+    } 
+
+    if (numbers[index] % 2 === 0) {
+        contador2+=1;
+    }
+}
+
+if (contador > contador2) {
+    console.log(contador);
+} else{
+    console.log("Nenhum valor encontrado.");
+}
 
 
 // console.log("A quantidade de números ímpares dentro do array: " + contador);
@@ -75,18 +86,18 @@
 // console.log("O menor valor do array é: " + menor);
 
 //Exercicio 8
-let numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+// let numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
 
 // for (let index = 0; index < numbers2.length; index+=1) {
 //     console.log(numbers2[index]);
 // }
 
 //Exercicio 9
-let resultDivisao;
+// let resultDivisao;
 
-for (let index = 0; index < numbers2.length; index+=1) {
-    resultDivisao = (numbers2[index]/2);
+// for (let index = 0; index < numbers2.length; index+=1) {
+//     resultDivisao = (numbers2[index]/2);
 
-    console.log(numbers2[index] + "/2" + " é: " + resultDivisao);
-}
+//     console.log(numbers2[index] + "/2" + " é: " + resultDivisao);
+// }
 
