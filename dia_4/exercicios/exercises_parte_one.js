@@ -18,3 +18,15 @@ let info = {
   for (const key in info) {
       console.log(info[key]);
   }
+
+  // 5 - Definindo um 2° objeto com a mesma estrutura (as mesmas chaves) do primeiro, mas com novos valores:
+  let info_2 = {
+      personagem: 'Margarida e Tio Patinhas',
+      origen: 'Pato Donald e Christmas on Bear Mountain, Dells Four Color Comics #178',
+      nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald e O último MacPatinhas',
+      recorrentes: 'Ambos recorrentes'
+  };
+
+  for (const key in info_2) {
+    console.log(info_2[key]);
+}
