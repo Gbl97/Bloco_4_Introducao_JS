@@ -52,3 +52,22 @@ function menorIndice(array_test) {
 }
 
 // Exercicio 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+// let arrayNomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+
+// maiorCaracter(arrayNomes);
+
+// function maiorCaracter(string) {
+//     let qtdCaracteres = 0;
+//     let maior = '';
+//     let index;
+
+//     for (index = 0; index < string.length; index+=1) {
+//         if (string[index].length > qtdCaracteres) {
+//             qtdCaracteres = string[index].length;
+//             maior = string[index];
+//         }
+//     }
+//     return console.log(maior);
+// }
+
+//Exercicio 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
