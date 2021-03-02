@@ -9,4 +9,8 @@ let info = {
   // 1 - Imprimir uma mensagem de boas-vindas:
   console.log("Bem-vinda, " + info.personagem);
 
+  // 3 - Faça um for/in que mostre todas as chaves do objeto:
+  for (let key in info) {
+      console.log(key);
+  }
   
