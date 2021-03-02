@@ -15,3 +15,21 @@ function verificaPalindrome(nome) {
 }
 
 verificaPalindrome('mirim');
+
+// Exercicio 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+let array_teste = [2, 3, 6, 7, 10, 1];
+
+
+function maiorIndice(array_test) {
+    let maior = 0;
+    let index;
+
+    for (index = 0; index < array_test.length; index+=1) {
+        if (array_test[index] > maior) {
+            maior = index;
+        }
+    }
+    return console.log(maior);
+}
+
+maiorIndice(array_teste);
