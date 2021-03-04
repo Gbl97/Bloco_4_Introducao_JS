@@ -71,31 +71,41 @@
 // }
 
 //Exercicio 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
-let arrayInteiro = [2, 3, 2, 5, 8, 2, 3];
+// let arrayInteiro = [2, 3, 2, 5, 8, 2, 3];
 
-inteiroQueMaisSeRepete(arrayInteiro);
+// inteiroQueMaisSeRepete(arrayInteiro);
 
-function inteiroQueMaisSeRepete(arrayNumbers) {
-    // Cria uma variável que recebe a contagem dos números repetidos, e inicialmente, atribui-se a variável a 0:
-    let contadorRepetido = 0;
-    // Cria uma variável que recebe a contagem dos números, atribui-se a variável a 0:
-    let contadorNumbers = 0;
-    // Crio uma variável que nela é atribuída o index do número repetido:
-    let indexDoNumeroQueRepete = 0;
+// function inteiroQueMaisSeRepete(arrayNumbers) {
+//     // Cria uma variável que recebe a contagem dos números repetidos, e inicialmente, atribui-se a variável a 0:
+//     let contadorRepetido = 0;
+//     // Cria uma variável que recebe a contagem dos números, atribui-se a variável a 0:
+//     let contadorNumbers = 0;
+//     // Crio uma variável que nela é atribuída o index do número repetido:
+//     let indexDoNumeroQueRepete = 0;
 
-    for (let index = 0; index < arrayNumbers.length; index+=1) {
-        for (let index_2 = 0; index_2 < arrayNumbers.length; index_2+=1) {
-            if (arrayNumbers[index] === arrayNumbers[index_2]) {
-                contadorNumbers+=1;
-            }         
-        }
-        if (contadorNumbers > contadorRepetido) {
-            contadorRepetido = contadorNumbers;
-            indexDoNumeroQueRepete = index;
-        }
-        contadorNumbers = 0;
+//     for (let index = 0; index < arrayNumbers.length; index+=1) {
+//         for (let index_2 = 0; index_2 < arrayNumbers.length; index_2+=1) {
+//             if (arrayNumbers[index] === arrayNumbers[index_2]) {
+//                 contadorNumbers+=1;
+//             }         
+//         }
+//         if (contadorNumbers > contadorRepetido) {
+//             contadorRepetido = contadorNumbers;
+//             indexDoNumeroQueRepete = index;
+//         }
+//         contadorNumbers = 0;
+//     }
+//     return console.log("Número que mais se repete: " + arrayNumbers[indexDoNumeroQueRepete]+ " " + " Quanta vezes se repetiu o número: " + contadorRepetido);
+// }
+
+//Exercicio 6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+somaN(10);
+
+function somaN(number){
+    let soma = 1;
+
+    for (let index = 2; index <= number; index += 1) {
+        soma+=index;
     }
-    return console.log("Número que mais se repete: " + arrayNumbers[indexDoNumeroQueRepete]+ " " + " Quanta vezes se repetiu o número: " + contadorRepetido);
+    return console.log(soma);
 }
-
-//Exercicio 6 
