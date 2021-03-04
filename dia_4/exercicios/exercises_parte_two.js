@@ -99,13 +99,16 @@
 // }
 
 //Exercicio 6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
-somaN(10);
+// somaN(10);
 
-function somaN(number){
-    let soma = 1;
+// function somaN(number){
+//     let soma = 1;
 
-    for (let index = 2; index <= number; index += 1) {
-        soma+=index;
-    }
-    return console.log(soma);
-}
+//     for (let index = 2; index <= number; index += 1) {
+//         soma+=index;
+//     }
+//     return console.log(soma);
+// }
+
+// Exercicio 7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word. 
+//Considere que a string ending sempre será menor que a string word.
