@@ -96,5 +96,6 @@ function inteiroQueMaisSeRepete(arrayNumbers) {
         contadorNumbers = 0;
     }
     return console.log("Número que mais se repete: " + arrayNumbers[indexDoNumeroQueRepete]+ " " + " Quanta vezes se repetiu o número: " + contadorRepetido);
-
 }
+
+//Exercicio 6 
