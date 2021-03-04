@@ -112,3 +112,13 @@
 
 // Exercicio 7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word. 
 //Considere que a string ending sempre será menor que a string word.
+
+verificaFimPalavra('trybe', 'be');
+
+function verificaFimPalavra(word, ending) {
+    if (word.indexOf(ending)) {
+        return console.log(true);
+    } else {
+        return console.log(false);
+    }
+}
